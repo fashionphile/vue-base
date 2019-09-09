@@ -28,6 +28,12 @@ After add the following path to your `app/Console/Kernel.php` in your commands a
     ];
 ```
 
+## Running the command
+To run the command enter this in your command line:
+`php artisan vue-base:create`
+
+After it will create your directory in wherever you designated in your config. You will need to add the app.js file from that directory to your mix-manifest (or whatever compiler you are using) to use the component.
+
 Contact me:
 
 *Author Dano Gillette* 

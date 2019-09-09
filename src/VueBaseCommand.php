@@ -7,7 +7,7 @@ use Artisan;
 
 class VueBaseCommand extends Command
 {
-    protected $signature = 'vue:create {--dry}';
+    protected $signature = 'vue-base:create {--dry}';
     protected $description = 'Creates a vue scaffolding';
     protected $myPath = './Boilerplates';
     protected $path = '';
