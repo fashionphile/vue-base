@@ -5,7 +5,7 @@ namespace VueBase;
 use Illuminate\Console\Command;
 use Artisan;
 
-class RuetCommand extends Command
+class VueBaseCommand extends Command
 {
     protected $signature = 'vue:create {--dry}';
     protected $description = 'Creates a vue scaffolding';
