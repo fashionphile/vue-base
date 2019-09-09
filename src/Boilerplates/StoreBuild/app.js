@@ -8,7 +8,7 @@ window.axios = require('axios');
 
 import store from './store.js';
 
-Vue.component("ruet-app", require("./Base.vue"));
+Vue.component("vue-base-app", require("./Base.vue"));
 
 Vue.use(VueAxios, axios);
 Vue.use(moment);

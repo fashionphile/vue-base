@@ -8,7 +8,7 @@ window.axios = require('axios');
 
 import routes from './routes';
 
-Vue.component("vue-base-app", require("./Base.vue"));
+Vue.component("ruet-app", require("./Base.vue"));
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);

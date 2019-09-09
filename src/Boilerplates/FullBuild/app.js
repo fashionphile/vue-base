@@ -10,7 +10,7 @@ import store from './store.js';
 
 window.axios = require('axios');
 
-Vue.component("ruet-app", require("./Base.vue"));
+Vue.component("vue-base-app", require("./Base.vue"));
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);

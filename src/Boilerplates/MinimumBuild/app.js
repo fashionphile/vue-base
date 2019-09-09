@@ -5,7 +5,7 @@ import moment from 'moment'
 
 window.axios = require('axios');
 
-Vue.component("ruet-app", require("./Base.vue"));
+Vue.component("vue-base-app", require("./Base.vue"));
 
 Vue.use(VueAxios, axios);
 Vue.use(moment);
