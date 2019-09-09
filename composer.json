@@ -1,0 +1,26 @@
+{
+    "name": "fashionphile/vue-base",
+    "type": "library",
+    "description": "Artisan command that builds vue base that can use Vuex and Vue Router",
+    "keywords": ["laravel","vue","scaffolding","php","artisan"],
+    "homepage": "https://fashionphile.com",
+    "require": {
+        "php": "^7.1"
+    },
+    "suggest": {
+        "laravel/framework": "Makes use of the laravel eloquent scopes."
+    },
+    "authors": [
+        {
+            "name": "Dano Gillette",
+            "email": "dgillette25@gmail.com",
+            "homepage": "http://danogillette.com",
+            "role": "Senior Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VueBase\\": "src/"
+        }
+    }
+}
