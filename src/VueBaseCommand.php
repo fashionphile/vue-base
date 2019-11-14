@@ -9,7 +9,7 @@ class VueBaseCommand extends Command
 {
     protected $signature = 'vue-base:create {--dry}';
     protected $description = 'Creates a vue scaffolding';
-    protected $myPath = './Boilerplates';
+    protected $myPath = './vendor/fashionphile/vue-base/src/Boilerplates';
     protected $path = '';
     protected $name = '';
     protected $className = '';
